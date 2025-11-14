@@ -28,24 +28,6 @@ A clean, focused web application for extracting, parsing, and displaying data fr
 - PHP 7.2+ (Laravel comes with PHP 7.4+)
 - Web server running (Laragon includes Apache)
 
-### Setup Steps
-
-1. **Copy files to Laragon**
-   ```bash
-   # Copy the analyzer folder to your Laragon www directory
-   C:\laragon\www\analyzer\
-   ```
-
-2. **Ensure upload directory exists**
-   ```bash
-   mkdir C:\laragon\www\analyzer\uploads
-   chmod 755 C:\laragon\www\analyzer\uploads
-   ```
-
-3. **Access the application**
-   - Open your browser and go to: `http://localhost/analyzer`
-   - Or: `http://yoursite.local/analyzer` (if configured in Laragon)
-
 ## Usage
 
 ### Basic Workflow
