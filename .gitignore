@@ -1,0 +1,32 @@
+# Uploads
+uploads/
+*.pdf
+*.pdf.bak
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.env.local
+
+# Temp files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Node (if using build tools)
+node_modules/
+package-lock.json
+
+# PHP
+composer.lock
+.phpunit.result.cache
+
+# Debug
+debug.log

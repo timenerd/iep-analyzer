@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.6/phpunit.xsd"
+         bootstrap="../GuideAI/vendor/autoload.php"
+         colors="true"
+         verbose="true"
+         stopOnFailure="false"
+         beStrictAboutOutputDuringTests="true">
+    <testsuites>
+        <testsuite name="IEP Analyzer Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage processUncoveredFiles="true">
+        <include>
+            <file>./extract.php</file>
+            <file>./diagnose.php</file>
+        </include>
+    </coverage>
+
+    <php>
+        <ini name="display_errors" value="1"/>
+        <ini name="error_reporting" value="-1"/>
+    </php>
+</phpunit>
